@@ -404,6 +404,16 @@ main { display: block; }
 }
 .card--tinted { background: var(--bone-2); }
 
+.donation-widget-wrap {
+  max-width: 640px;
+  margin: var(--s-7) auto 0;
+  padding: var(--s-6);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--bone);
+}
+.donation-widget-wrap .gl-simple-donation-widget { width: 100%; }
+
 .pillar-icon {
   width: 40px;
   height: 40px;
